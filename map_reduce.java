@@ -17,7 +17,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.LongWritable;
+
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.TableName;
@@ -122,7 +122,7 @@ public class AmazonReviewAnalyzeFields extends Configured implements Tool {
            		// Sort the vote in asc
            		votes = (-1) * vote; 
 
-           		context.write(new LongWritable(votes),new LongWritable(overall), new Text(movie_name));
+           		context.write(new IntWritable(votes),new IntWritable(overall), new Text(movie_name));
                               
 
 				
@@ -137,8 +137,8 @@ public class AmazonReviewAnalyzeFields extends Configured implements Tool {
   
 	// Reducer to simply sum up the values with the same key (text)
 	// The reducer will run until all values that have the same key are combined
-	public static class MapReduceReducer extends Reducer<LongWritable,LongWritable, 
-                                      Text, LongWritable, Text> {
+	public static class MapReduceReducer extends Reducer<IntWritable,IntWritable, 
+                                      Text, IntWritable, Text> {
 
    static int count; 
   
@@ -150,7 +150,7 @@ public class AmazonReviewAnalyzeFields extends Configured implements Tool {
     } 
 
  @Override
-    public void reduce(LongWritable key,LongWritable overall ,Iterable<Text> values, 
+    public void reduce(IntWritable key,IntWritable overall ,Iterable<Text> values, 
       Context context) throws IOException, InterruptedException 
     { 
    
@@ -171,7 +171,7 @@ public class AmazonReviewAnalyzeFields extends Configured implements Tool {
         // we just write top 100 records as output 
         if (count < 100) 
         { 
-            context.write(new LongWritable(votes),new LongWritable(avg_rating), 
+            context.write(new IntWritable(votes),new IntWritable(avg_rating), 
                                   new Text(review_name)); 
             count++; 
         } 
