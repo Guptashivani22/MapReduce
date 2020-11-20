@@ -136,7 +136,7 @@ public class AmazonReviewAnalyzeFields extends Configured implements Tool {
   
 	// Reducer to simply sum up the values with the same key (text)
 	// The reducer will run until all values that have the same key are combined
-	public static class MapReduceReducer extends Reducer<LongWritable,LongWritable 
+	public static class MapReduceReducer extends Reducer<LongWritable,LongWritable, 
                                       Text, LongWritable, Text> {
 
    static int count; 
