@@ -124,7 +124,7 @@ public class AmazonReviewAnalyzeFields extends Configured implements Tool {
            		context.write(new LongWritable(votes),new LongWritable(overall), new Text(movie_name));
                               
 
-				}
+				
 			
 				// Here we increment a counter that we can read when the job is done
 				rowsProcessed.increment(1);
