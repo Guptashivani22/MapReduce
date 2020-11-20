@@ -121,8 +121,8 @@ public class AmazonReviewAnalyzeFields extends Configured implements Tool {
            		// Sort the vote in asc
            		votes = (-1) * vote; 
 
-           		context.write(new LongWritable(votes),new LongWritable(overall) 
-                              new Text(movie_name));
+           		context.write(new LongWritable(votes),new LongWritable(overall), new Text(movie_name));
+                              
 
 				}
 			
