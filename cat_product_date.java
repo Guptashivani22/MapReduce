@@ -119,24 +119,30 @@ public class cat_product_date extends Configured implements Tool {
                                 JsonObject jsonObject = jsonTree.getAsJsonObject();
 
 // 				DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM d, yyyy", Locale.ENGLISH);
-				SimpleDateFormat format = new SimpleDateFormat("mm dd, yyyy");
+				SimpleDateFormat format = new SimpleDateFormat("MMMM dd, yyyy");
 				String prodDate = jsonObject.get("date").getAsString();
 				
 				Date date = null;
    
 				try {
 					date = format.parse(prodDate); 
+				// 	System.out.println(date);
 				} catch (Exception e) {
 					context.write(new Text("Bad-Values"),one);
 				}
 				
-				String da=date1.toString();
-				String p_num[] = da.split("-");
-				// System.out.println(p_num[0]);
-				String bucketTextYear = "Year: " + p_num[0];
+				String da=date.toString();
+// 				System.out.println(da);
+				String p_num[] = da.split(" ");
+				
+				String bucketTextYear = "Year: " + p_num[p_num.length-1];
+// 				System.out.println(p_num[p_num.length-1]);
+// 				System.out.println(bucketTextYear);
 				context.write(new Text(bucketTextYear),one);
-				// System.out.println(p_num[1]);
-				String bucketTextMonthYear = "Month:Year :: " + p_num[1]+":"+p_num[1];
+				
+				String bucketTextMonthYear = "Month:Year :: " + p_num[1]+":"+p_num[p_num.length-1];
+// 				System.out.println(p_num[1]);
+// 				System.out.println(bucketTextMonthYear);
 				context.write(new Text(bucketTextMonthYear),one);
 
 				
