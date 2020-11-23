@@ -127,9 +127,6 @@ public class cat_product_date extends Configured implements Tool {
 				try {
 					date = format.parse(prodDate); 
 				// 	System.out.println(date);
-				} catch (Exception e) {
-					context.write(new Text("Bad-Values"),one);
-				}
 				
 				String da=date.toString();
 // 				System.out.println(da);
@@ -144,6 +141,10 @@ public class cat_product_date extends Configured implements Tool {
 // 				System.out.println(p_num[1]);
 // 				System.out.println(bucketTextMonthYear);
 				context.write(new Text(bucketTextMonthYear),one);
+
+				} catch (Exception e) {
+					context.write(new Text("Bad-Values"),one);
+				}
 
 				
 				
