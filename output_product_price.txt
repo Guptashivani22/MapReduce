@@ -1,0 +1,355 @@
+AMAZON FASHION:40.0 to 42.0	23
+AMAZON FASHION:62.0 to 64.0	20
+AMAZON FASHION:84.0 to 86.0	6
+Musical Instruments: No-price-Value	4
+Tools & Home Improvement:0.0 to 2.0	4
+Tools & Home Improvement:4.0 to 6.0	2
+Toys & Games:30.0 to 32.0	3
+Video Games: No-price-Value	2
+Amazon Home:84.0 to 86.0	1
+Automotive:60.0 to 62.0	3
+Digital Music: No-price-Value	1
+Toys & Games:8.0 to 10.0	3
+AMAZON FASHION:20.0 to 22.0	63
+AMAZON FASHION:42.0 to 44.0	21
+AMAZON FASHION:64.0 to 66.0	26
+AMAZON FASHION:86.0 to 88.0	4
+Toys & Games: No-price-Value	50
+Camera & Photo: No-price-Value	1
+Sports & Outdoors:114.0 to 116.0	3
+Sports & Outdoors:132.0 to 134.0	1
+Sports & Outdoors:2.0 to 4.0	5
+Sports & Outdoors:6.0 to 8.0	8
+All Beauty:10.0 to 12.0	3
+All Beauty:32.0 to 34.0	1
+Amazon Home:20.0 to 22.0	1
+Automotive:84.0 to 86.0	1
+AMAZON FASHION:22.0 to 24.0	50
+AMAZON FASHION:44.0 to 46.0	46
+AMAZON FASHION:66.0 to 68.0	12
+Health & Personal Care:84.0 to 86.0	1
+Sports & Outdoors:88.0 to 90.0	2
+Toys & Games:12.0 to 14.0	2
+Toys & Games:34.0 to 36.0	1
+Amazon Home:22.0 to 24.0	1
+AMAZON FASHION:24.0 to 26.0	77
+AMAZON FASHION:46.0 to 48.0	31
+All Electronics:38.0 to 40.0	1
+Sports & Outdoors:68.0 to 70.0	4
+Industrial & Scientific:150.0 to 152.0	1
+Industrial & Scientific:2.0 to 4.0	1
+Industrial & Scientific:6.0 to 8.0	1
+Toys & Games:14.0 to 16.0	2
+AMAZON FASHION:128.0 to 130.0	9
+AMAZON FASHION:168.0 to 170.0	6
+AMAZON FASHION:238.0 to 240.0	2
+AMAZON FASHION:278.0 to 280.0	2
+AMAZON FASHION:348.0 to 350.0	3
+All Beauty:36.0 to 38.0	1
+All Beauty:98.0 to 100.0	1
+Amazon Home:24.0 to 26.0	2
+Automotive:22.0 to 24.0	1
+Automotive:66.0 to 68.0	1
+Tools & Home Improvement:38.0 to 40.0	1
+AMAZON FASHION:26.0 to 28.0	26
+Health & Personal Care:22.0 to 24.0	1
+Health & Personal Care:44.0 to 46.0	1
+Sports & Outdoors:48.0 to 50.0	2
+Baby:24.0 to 26.0	1
+Toys & Games:16.0 to 18.0	2
+Amazon Home:26.0 to 28.0	2
+Automotive:46.0 to 48.0	1
+Health & Personal Care:24.0 to 26.0	1
+Sports & Outdoors:28.0 to 30.0	3
+Sports & Outdoors:8.0 to 10.0	15
+Tools & Home Improvement:158.0 to 160.0	1
+Sports & Outdoors: No-price-Value	207
+AMAZON FASHION:0.0 to 2.0	13
+AMAZON FASHION:112.0 to 114.0	7
+AMAZON FASHION:116.0 to 118.0	3
+AMAZON FASHION:130.0 to 132.0	1
+AMAZON FASHION:134.0 to 136.0	4
+AMAZON FASHION:152.0 to 154.0	5
+AMAZON FASHION:156.0 to 158.0	6
+AMAZON FASHION:170.0 to 172.0	3
+AMAZON FASHION:174.0 to 176.0	5
+AMAZON FASHION:196.0 to 198.0	2
+AMAZON FASHION:204.0 to 206.0	1
+AMAZON FASHION:222.0 to 224.0	1
+AMAZON FASHION:226.0 to 228.0	1
+AMAZON FASHION:244.0 to 246.0	1
+AMAZON FASHION:298.0 to 300.0	4
+AMAZON FASHION:310.0 to 312.0	1
+AMAZON FASHION:332.0 to 334.0	1
+AMAZON FASHION:336.0 to 338.0	2
+AMAZON FASHION:354.0 to 356.0	2
+AMAZON FASHION:376.0 to 378.0	1
+AMAZON FASHION:390.0 to 392.0	3
+AMAZON FASHION:4.0 to 6.0	30
+AMAZON FASHION:420.0 to 422.0	2
+AMAZON FASHION:698.0 to 700.0	1
+Health & Personal Care:8.0 to 10.0	2
+Toys & Games:6.0 to 8.0	2
+Health & Personal Care: No-price-Value	16
+Sports & Outdoors:138.0 to 140.0	3
+Amazon Home:2.0 to 4.0	2
+Amazon Home:6.0 to 8.0	3
+All Electronics: No-price-Value	10
+AMAZON FASHION:78.0 to 80.0	19
+Cell Phones & Accessories: No-price-Value	1
+Computers:172.0 to 174.0	1
+Automotive:6.0 to 8.0	1
+Tools & Home Improvement:92.0 to 94.0	1
+AMAZON FASHION:58.0 to 60.0	36
+AMAZON FASHION:998.0 to 1000.0	1
+Health & Personal Care:176.0 to 178.0	1
+Health & Personal Care:2.0 to 4.0	1
+Health & Personal Care:6.0 to 8.0	3
+Sports & Outdoors:80.0 to 82.0	3
+Digital Music:20.0 to 22.0	1
+Toys & Games:48.0 to 50.0	2
+All Beauty:48.0 to 50.0	1
+Sports & Outdoors:162.0 to 164.0	1
+Sports & Outdoors:214.0 to 216.0	1
+Sports & Outdoors:276.0 to 278.0	1
+Sports & Outdoors:598.0 to 600.0	1
+AMAZON FASHION:38.0 to 40.0	71
+Health & Personal Care:78.0 to 80.0	1
+Sports & Outdoors:82.0 to 84.0	1
+Toys & Games:28.0 to 30.0	1
+Amazon Home:38.0 to 40.0	1
+Tools & Home Improvement:74.0 to 76.0	1
+AMAZON FASHION:18.0 to 20.0	86
+Movies & TV:10.0 to 12.0	1
+Sports & Outdoors:40.0 to 42.0	2
+Sports & Outdoors:62.0 to 64.0	15
+Office Products:8.0 to 10.0	1
+Amazon Home:18.0 to 20.0	2
+Office Products: No-price-Value	2
+Tools & Home Improvement:10.0 to 12.0	2
+AMAZON FASHION:118.0 to 120.0	3
+AMAZON FASHION:158.0 to 160.0	4
+AMAZON FASHION:228.0 to 230.0	3
+AMAZON FASHION:268.0 to 270.0	1
+AMAZON FASHION:448.0 to 450.0	1
+AMAZON FASHION:558.0 to 560.0	1
+AMAZON FASHION:98.0 to 100.0	18
+All Electronics:12.0 to 14.0	1
+Books: No-price-Value	4
+Health & Personal Care:38.0 to 40.0	2
+Sports & Outdoors:20.0 to 22.0	1
+Sports & Outdoors:42.0 to 44.0	4
+Sports & Outdoors:64.0 to 66.0	1
+Tools & Home Improvement:12.0 to 14.0	2
+Health & Personal Care:18.0 to 20.0	1
+Sports & Outdoors:22.0 to 24.0	9
+Sports & Outdoors:44.0 to 46.0	2
+AMAZON FASHION:90.0 to 92.0	4
+Tools & Home Improvement:14.0 to 16.0	1
+Tools & Home Improvement:36.0 to 38.0	1
+Sports & Outdoors:24.0 to 26.0	7
+Sports & Outdoors:46.0 to 48.0	6
+Camera & Photo:4.0 to 6.0	1
+AMAZON FASHION:102.0 to 104.0	9
+AMAZON FASHION:106.0 to 108.0	4
+AMAZON FASHION:120.0 to 122.0	2
+AMAZON FASHION:124.0 to 126.0	4
+AMAZON FASHION:142.0 to 144.0	3
+AMAZON FASHION:146.0 to 148.0	9
+AMAZON FASHION:160.0 to 162.0	5
+AMAZON FASHION:164.0 to 166.0	2
+AMAZON FASHION:186.0 to 188.0	1
+AMAZON FASHION:216.0 to 218.0	1
+AMAZON FASHION:230.0 to 232.0	1
+AMAZON FASHION:252.0 to 254.0	1
+AMAZON FASHION:270.0 to 272.0	2
+AMAZON FASHION:274.0 to 276.0	2
+AMAZON FASHION:296.0 to 298.0	1
+AMAZON FASHION:300.0 to 302.0	1
+AMAZON FASHION:326.0 to 328.0	1
+AMAZON FASHION:398.0 to 400.0	1
+AMAZON FASHION:450.0 to 452.0	2
+AMAZON FASHION:70.0 to 72.0	12
+AMAZON FASHION:766.0 to 768.0	1
+AMAZON FASHION:832.0 to 834.0	1
+AMAZON FASHION:92.0 to 94.0	4
+AMAZON FASHION:960.0 to 962.0	1
+Sports & Outdoors:26.0 to 28.0	12
+AMAZON FASHION:50.0 to 52.0	16
+AMAZON FASHION:72.0 to 74.0	11
+AMAZON FASHION:94.0 to 96.0	17
+Movies & TV: No-price-Value	1
+AMAZON FASHION:30.0 to 32.0	29
+AMAZON FASHION:52.0 to 54.0	24
+AMAZON FASHION:74.0 to 76.0	20
+AMAZON FASHION:96.0 to 98.0	7
+Tools & Home Improvement:2.0 to 4.0	2
+AMAZON FASHION:8.0 to 10.0	89
+AMAZON FASHION: No-price-Value	3355
+Toys & Games:20.0 to 22.0	3
+Video Games:74.0 to 76.0	1
+Amazon Home:30.0 to 32.0	1
+AMAZON FASHION:10.0 to 12.0	67
+AMAZON FASHION:32.0 to 34.0	32
+AMAZON FASHION:54.0 to 56.0	25
+AMAZON FASHION:76.0 to 78.0	10
+Sports & Outdoors:4.0 to 6.0	2
+Health & Personal Care:72.0 to 74.0	1
+Toys & Games:44.0 to 46.0	2
+All Beauty:22.0 to 24.0	1
+Amazon Home:10.0 to 12.0	4
+AMAZON FASHION:12.0 to 14.0	135
+AMAZON FASHION:34.0 to 36.0	42
+AMAZON FASHION:56.0 to 58.0	18
+Health & Personal Care:30.0 to 32.0	2
+Sports & Outdoors:78.0 to 80.0	1
+All Beauty:24.0 to 26.0	1
+Amazon Home:12.0 to 14.0	3
+Tools & Home Improvement:48.0 to 50.0	3
+AMAZON FASHION:14.0 to 16.0	136
+AMAZON FASHION:36.0 to 38.0	28
+Industrial & Scientific:4.0 to 6.0	1
+AMAZON FASHION:108.0 to 110.0	6
+AMAZON FASHION:148.0 to 150.0	10
+AMAZON FASHION:188.0 to 190.0	14
+AMAZON FASHION:218.0 to 220.0	4
+AMAZON FASHION:328.0 to 330.0	2
+AMAZON FASHION:368.0 to 370.0	8
+AMAZON FASHION:438.0 to 440.0	1
+AMAZON FASHION:508.0 to 510.0	1
+AMAZON FASHION:588.0 to 590.0	1
+AMAZON FASHION:728.0 to 730.0	1
+Health & Personal Care:10.0 to 12.0	1
+Health & Personal Care:54.0 to 56.0	2
+Sports & Outdoors:58.0 to 60.0	3
+Toys & Games:26.0 to 28.0	2
+All Beauty:26.0 to 28.0	1
+Amazon Home:14.0 to 16.0	4
+Automotive:56.0 to 58.0	1
+AMAZON FASHION:16.0 to 18.0	82
+Grocery: No-price-Value	1
+Health & Personal Care:12.0 to 14.0	2
+Sports & Outdoors:38.0 to 40.0	4
+Movies & TV:118.0 to 120.0	1
+Amazon Home:16.0 to 18.0	3
+Health & Personal Care:14.0 to 16.0	3
+Sports & Outdoors:18.0 to 20.0	5
+Baby:16.0 to 18.0	1
+AMAZON FASHION:110.0 to 112.0	5
+AMAZON FASHION:114.0 to 116.0	9
+AMAZON FASHION:132.0 to 134.0	4
+AMAZON FASHION:136.0 to 138.0	3
+AMAZON FASHION:150.0 to 152.0	2
+AMAZON FASHION:154.0 to 156.0	3
+AMAZON FASHION:172.0 to 174.0	2
+AMAZON FASHION:176.0 to 178.0	1
+AMAZON FASHION:194.0 to 196.0	1
+AMAZON FASHION:2.0 to 4.0	37
+AMAZON FASHION:202.0 to 204.0	3
+AMAZON FASHION:220.0 to 222.0	2
+AMAZON FASHION:224.0 to 226.0	1
+AMAZON FASHION:260.0 to 262.0	3
+AMAZON FASHION:264.0 to 266.0	1
+AMAZON FASHION:352.0 to 354.0	1
+AMAZON FASHION:426.0 to 428.0	1
+AMAZON FASHION:480.0 to 482.0	1
+AMAZON FASHION:498.0 to 500.0	3
+AMAZON FASHION:590.0 to 592.0	2
+AMAZON FASHION:6.0 to 8.0	97
+AMAZON FASHION:990.0 to 992.0	1
+Books:10.0 to 12.0	1
+Toys & Games:0.0 to 2.0	2
+Toys & Games:4.0 to 6.0	3
+All Beauty:2.0 to 4.0	1
+Tools & Home Improvement:8.0 to 10.0	2
+Arts, Crafts & Sewing:94.0 to 96.0	1
+Automotive:8.0 to 10.0	1
+Tools & Home Improvement: No-price-Value	8
+AMAZON FASHION:88.0 to 90.0	14
+Amazon Home:0.0 to 2.0	1
+Amazon Home:4.0 to 6.0	1
+Automotive: No-price-Value	4
+Toys & Games:78.0 to 80.0	2
+Amazon Home:8.0 to 10.0	2
+AMAZON FASHION:68.0 to 70.0	17
+Amazon Home: No-price-Value	39
+All Beauty: No-price-Value	12
+Digital Music:30.0 to 32.0	1
+Toys & Games:58.0 to 60.0	1
+Arts, Crafts & Sewing:10.0 to 12.0	3
+AMAZON FASHION:48.0 to 50.0	44
+Arts, Crafts & Sewing:8.0 to 10.0	1
+Arts, Crafts & Sewing: No-price-Value	3
+Health & Personal Care:88.0 to 90.0	1
+Sports & Outdoors:106.0 to 108.0	1
+Sports & Outdoors:124.0 to 126.0	1
+Sports & Outdoors:216.0 to 218.0	1
+Digital Music:32.0 to 34.0	1
+Toys & Games:38.0 to 40.0	1
+All Beauty:38.0 to 40.0	1
+AMAZON FASHION:28.0 to 30.0	78
+Sports & Outdoors:50.0 to 52.0	4
+Toys & Games:18.0 to 20.0	4
+Amazon Home:28.0 to 30.0	1
+Sports & Outdoors:30.0 to 32.0	4
+Sports & Outdoors:52.0 to 54.0	5
+Sports & Outdoors:74.0 to 76.0	1
+Sports & Outdoors:96.0 to 98.0	1
+AMAZON FASHION:138.0 to 140.0	8
+AMAZON FASHION:178.0 to 180.0	8
+AMAZON FASHION:248.0 to 250.0	2
+AMAZON FASHION:288.0 to 290.0	4
+AMAZON FASHION:318.0 to 320.0	1
+AMAZON FASHION:358.0 to 360.0	1
+AMAZON FASHION:428.0 to 430.0	1
+AMAZON FASHION:578.0 to 580.0	2
+Baby:28.0 to 30.0	1
+Office Products:156.0 to 158.0	1
+Health & Personal Care:28.0 to 30.0	1
+Sports & Outdoors:10.0 to 12.0	15
+Sports & Outdoors:32.0 to 34.0	4
+Sports & Outdoors:54.0 to 56.0	2
+Sports & Outdoors:76.0 to 78.0	1
+Home Audio & Theater: No-price-Value	5
+Industrial & Scientific:30.0 to 32.0	1
+Sports & Outdoors:12.0 to 14.0	11
+Sports & Outdoors:34.0 to 36.0	7
+Sports & Outdoors:56.0 to 58.0	1
+AMAZON FASHION:80.0 to 82.0	8
+Arts, Crafts & Sewing:6.0 to 8.0	1
+AMAZON FASHION:100.0 to 102.0	4
+AMAZON FASHION:104.0 to 106.0	11
+AMAZON FASHION:122.0 to 124.0	1
+AMAZON FASHION:126.0 to 128.0	5
+AMAZON FASHION:140.0 to 142.0	3
+AMAZON FASHION:144.0 to 146.0	6
+AMAZON FASHION:162.0 to 164.0	1
+AMAZON FASHION:166.0 to 168.0	4
+AMAZON FASHION:180.0 to 182.0	6
+AMAZON FASHION:184.0 to 186.0	3
+AMAZON FASHION:198.0 to 200.0	6
+AMAZON FASHION:214.0 to 216.0	3
+AMAZON FASHION:232.0 to 234.0	1
+AMAZON FASHION:236.0 to 238.0	1
+AMAZON FASHION:250.0 to 252.0	1
+AMAZON FASHION:276.0 to 278.0	4
+AMAZON FASHION:294.0 to 296.0	1
+AMAZON FASHION:320.0 to 322.0	1
+AMAZON FASHION:324.0 to 326.0	3
+AMAZON FASHION:360.0 to 362.0	1
+AMAZON FASHION:434.0 to 436.0	1
+AMAZON FASHION:470.0 to 472.0	1
+AMAZON FASHION:492.0 to 494.0	1
+AMAZON FASHION:598.0 to 600.0	3
+AMAZON FASHION:610.0 to 612.0	1
+AMAZON FASHION:672.0 to 674.0	1
+Sports & Outdoors:14.0 to 16.0	14
+Sports & Outdoors:36.0 to 38.0	8
+All Beauty:184.0 to 186.0	1
+Sports & Outdoors:108.0 to 110.0	1
+Sports & Outdoors:188.0 to 190.0	1
+AMAZON FASHION:60.0 to 62.0	6
+AMAZON FASHION:82.0 to 84.0	4
+Baby: No-price-Value	20
+Sports & Outdoors:16.0 to 18.0	7
+Toys & Games:72.0 to 74.0	1
