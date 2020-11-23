@@ -164,9 +164,9 @@ String maincat = jsonObject.get("main_cat").getAsString();
 								    avg_price = total / 2;
 								}
 								
-								double bucket = Math.floor(avg_price/50.0)*50.0;
+								double bucket = Math.floor(avg_price/2.0)*2.0;
 								//String bucketText = bucket + " to " + (bucket + 50.0);
-								String bucketText = maincat + ":" + bucket + " to " + (bucket + 50.0);
+								String bucketText = maincat + ":" + bucket + " to " + (bucket + 2.0);
 								context.write(new Text(bucketText),one);
 								
 								
