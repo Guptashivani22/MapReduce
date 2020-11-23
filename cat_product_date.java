@@ -5,9 +5,8 @@ import java.util.Map;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Arrays;
-import java.util.Locale;  
-import java.time.LocalDate;  
-import java.time.format.DateTimeFormatter; 
+import java.text.SimpleDateFormat;  
+import java.util.Date; 
 
 
 import org.apache.hadoop.conf.Configured;
@@ -119,28 +118,33 @@ public class cat_product_date extends Configured implements Tool {
 
                                 JsonObject jsonObject = jsonTree.getAsJsonObject();
 
-String price = jsonObject.get("date").getAsString();
-        
-        if (price.startsWith("<")) 
-        {
-// System.out.println("Category is: Bad-Values");
-context.write(new Text("Bad-Values"),one);
-                                } else{
-      DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM d, yyyy", Locale.ENGLISH);
-LocalDate date1 = LocalDate.parse(price, formatter);
-// System.out.println(date1);
-String da=date1.toString();
-String p_num[] = da.split("-");
-// System.out.println(p_num[0]);
-		
-String bucketTextYear = "Year: " + p_num[0];
-context.write(new Text(bucketTextYear),one);
-// System.out.println(p_num[1]);
-String bucketTextMonth = "Month: " + p_num[1];
-context.write(new Text(bucketTextMonth),one);
+// 				DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM d, yyyy", Locale.ENGLISH);
+				SimpleDateFormat format = new SimpleDateFormat("mm dd, yyyy");
+				String prodDate = jsonObject.get("date").getAsString();
+				
+				Date date = null;
+   
+				try {
+					date = format.parse(prodDate); 
+				} catch (Exception e) {
+					context.write(new Text("Bad-Values"),one);
+				}
+				
+				String da=date1.toString();
+				String p_num[] = da.split("-");
+				// System.out.println(p_num[0]);
+				String bucketTextYear = "Year: " + p_num[0];
+				context.write(new Text(bucketTextYear),one);
+				// System.out.println(p_num[1]);
+				String bucketTextMonthYear = "Month:Year :: " + p_num[1]+":"+p_num[1];
+				context.write(new Text(bucketTextMonthYear),one);
+
+				
+				
+
 								
                                     
-                                }
+                                
 								
 								
 
