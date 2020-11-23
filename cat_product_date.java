@@ -128,33 +128,23 @@ public class cat_product_date extends Configured implements Tool {
 					date = format.parse(prodDate); 
 				// 	System.out.println(date);
 				
-				String da=date.toString();
-// 				System.out.println(da);
-				String p_num[] = da.split(" ");
-				
-				String bucketTextYear = "Year: " + p_num[p_num.length-1];
-// 				System.out.println(p_num[p_num.length-1]);
-// 				System.out.println(bucketTextYear);
-				context.write(new Text(bucketTextYear),one);
-				
-				String bucketTextMonthYear = "Month:Year :: " + p_num[1]+":"+p_num[p_num.length-1];
-// 				System.out.println(p_num[1]);
-// 				System.out.println(bucketTextMonthYear);
-				context.write(new Text(bucketTextMonthYear),one);
+					String da=date.toString();
+	// 				System.out.println(da);
+					String p_num[] = da.split(" ");
+
+					String bucketTextYear = "Year: " + p_num[p_num.length-1];
+	// 				System.out.println(p_num[p_num.length-1]);
+	// 				System.out.println(bucketTextYear);
+					context.write(new Text(bucketTextYear),one);
+
+					String bucketTextMonthYear = "Month:Year :: " + p_num[1]+":"+p_num[p_num.length-1];
+	// 				System.out.println(p_num[1]);
+	// 				System.out.println(bucketTextMonthYear);
+					context.write(new Text(bucketTextMonthYear),one);
 
 				} catch (Exception e) {
 					context.write(new Text("Bad-Values"),one);
 				}
-
-				
-				
-
-								
-                                    
-                                
-								
-								
-
                                 // Here we increment a counter that we can read when the job is done
                                 rowsProcessed.increment(1);
                         } catch (Exception e) {
