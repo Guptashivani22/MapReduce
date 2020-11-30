@@ -1,8 +1,9 @@
-Q1:What is the distribution of prices for each product category ("main_cat")?  Produce 10 evenly split buckets for each category.
 
-Output of the following question:
+Q1: What is the distribution of prices for each product category ("main_cat")?  Produce 10 evenly split buckets for each category
 
-Main Category	Price Bucket	Quantity </br>	
+Following is the output:
+
+Main Category	Price Bucket	Quantity	</br>
 AMAZON FASHION	40.0 to 42.0	7801	</br>
 AMAZON FASHION	62.0 to 64.0	4011	</br>
 AMAZON FASHION	84.0 to 86.0	3345	</br>
@@ -10965,3 +10966,340 @@ Movies & TV	498.0 to 500.0	18	</br>
 Movies & TV	554.0 to 556.0	1	</br>
 Movies & TV	6.0 to 8.0	8764	</br>
 Movies & TV	994.0 to 996.0	1	</br>
+
+Q2:How do the products fall with regard to the "date" field?  Bucket by year and month.  Parsing of the date field required.  Note that this field is often bad (separate into a "bad" bucket).
+
+Following is the output:
+
+Month:Year	count of products Launched	</br>
+Month:Year :: Aug:2003	1844	</br>
+Month:Year :: Aug:1993	1	</br>
+Month:Year :: Aug:2004	2859	</br>
+Month:Year :: Aug:2005	8003	</br>
+Month:Year :: Aug:2006	6728	</br>
+Month:Year :: Jan:1900	2	</br>
+Month:Year :: Aug:2007	7715	</br>
+Month:Year :: Jan:1989	1	</br>
+Month:Year :: Aug:2008	12763	</br>
+Year: 1970	1	</br>
+Month:Year :: Aug:2009	7210	</br>
+Year: 1212	1	</br>
+Month:Year :: Aug:1999	14	</br>
+Year: 1973	2092	</br>
+Year: 1931	7	</br>
+Month:Year :: May:2000	445	</br>
+Year: 1976	1	</br>
+Month:Year :: May:2001	285	</br>
+Year: 1977	2	</br>
+Month:Year :: Apr:2000	700	</br>
+Month:Year :: May:2002	454	</br>
+Month:Year :: Apr:2001	224	</br>
+Month:Year :: Dec:2000	39	</br>
+Month:Year :: Jul:2010	12145	</br>
+Month:Year :: May:2003	5825	</br>
+Year: 1979	21	</br>
+Month:Year :: Apr:2002	438	</br>
+Month:Year :: Dec:2001	215	</br>
+Month:Year :: Jul:2011	25471	</br>
+Month:Year :: May:2004	4094	</br>
+Month:Year :: Apr:2003	864	</br>
+Month:Year :: Dec:2002	263	</br>
+Month:Year :: Jul:2012	15130	</br>
+Month:Year :: May:2005	2250	</br>
+Month:Year :: Apr:2004	9795	</br>
+Month:Year :: Dec:2003	1348	</br>
+Month:Year :: Jul:2013	36273	</br>
+Month:Year :: May:2006	5572	</br>
+Month:Year :: Apr:2005	3208	</br>
+Month:Year :: Dec:2004	3390	</br>
+Month:Year :: Jul:2014	41192	</br>
+Month:Year :: May:2007	5488	</br>
+Month:Year :: Apr:1995	7	</br>
+Month:Year :: Apr:2006	6304	</br>
+Month:Year :: Dec:2005	8123	</br>
+Month:Year :: Jul:2015	44591	</br>
+Month:Year :: May:2008	8051	</br>
+Month:Year :: Apr:1996	1	</br>
+Month:Year :: Apr:2007	7697	</br>
+Month:Year :: Dec:2006	6464	</br>
+Month:Year :: Jul:2016	13791	</br>
+Month:Year :: May:2009	9168	</br>
+Month:Year :: Apr:2008	7652	</br>
+Month:Year :: Dec:2007	5062	</br>
+Month:Year :: Jul:2017	3235	</br>
+Month:Year :: May:1999	9	</br>
+Month:Year :: Apr:1998	1	</br>
+Month:Year :: Apr:2009	11290	</br>
+Month:Year :: Dec:2008	9245	</br>
+Month:Year :: Jul:2018	1239	</br>
+Month:Year :: Apr:1999	1	</br>
+Month:Year :: Dec:1998	1	</br>
+Month:Year :: Dec:2009	12003	</br>
+Month:Year :: Dec:1999	15	</br>
+Month:Year :: Jan:2000	79	</br>
+Month:Year :: Jan:2001	166	</br>
+Month:Year :: Jan:2002	302	</br>
+Month:Year :: Nov:2000	1336	</br>
+Month:Year :: Aug:2010	14318	</br>
+Month:Year :: Jan:2003	409	</br>
+Month:Year :: Nov:2001	459	</br>
+Month:Year :: Aug:2011	25268	</br>
+Month:Year :: Jan:2004	1017	</br>
+Month:Year :: Nov:2002	576	</br>
+Month:Year :: Aug:2012	32885	</br>
+Month:Year :: Jan:1994	1	</br>
+Month:Year :: Jan:2005	1477	</br>
+Month:Year :: Nov:2003	2268	</br>
+Month:Year :: Aug:2013	35737	</br>
+Month:Year :: Jan:1995	9	</br>
+Month:Year :: Jan:2006	11301	</br>
+Month:Year :: Nov:2004	5554	</br>
+Month:Year :: Aug:2014	42653	</br>
+Month:Year :: Jan:1996	1	</br>
+Month:Year :: Jan:2007	21852	</br>
+Month:Year :: Nov:2005	25010	</br>
+Month:Year :: Aug:2015	43212	</br>
+Month:Year :: Jan:2008	10556	</br>
+Month:Year :: Nov:2006	8800	</br>
+Month:Year :: Aug:2016	9369	</br>
+Month:Year :: Jan:1998	14	</br>
+Month:Year :: Jan:2009	12388	</br>
+Month:Year :: Nov:2007	5195	</br>
+Month:Year :: Aug:2017	2457	</br>
+Month:Year :: Jan:1955	7	</br>
+Month:Year :: Jan:1999	38	</br>
+Month:Year :: Nov:2008	9552	</br>
+Month:Year :: Aug:2018	1309	</br>
+Month:Year :: Nov:1998	2	</br>
+Month:Year :: Nov:2009	8177	</br>
+Year: 1980	5	</br>
+Month:Year :: Jan:1957	1	</br>
+Month:Year :: Nov:1999	1342	</br>
+Year: 1982	2	</br>
+Year: 1983	1	</br>
+Year: 1941	1	</br>
+Month:Year :: May:2010	9843	</br>
+Month:Year :: May:2011	20214	</br>
+Month:Year :: Apr:2010	10098	</br>
+Month:Year :: May:2012	21753	</br>
+Year: 1900	2	</br>
+Year: 1988	1	</br>
+Month:Year :: Apr:2011	18646	</br>
+Month:Year :: Dec:2010	12703	</br>
+Month:Year :: Feb:2000	128	</br>
+Month:Year :: Jun:2000	109	</br>
+Month:Year :: May:2013	33305	</br>
+Year: 1989	1	</br>
+Month:Year :: Apr:2012	17474	</br>
+Month:Year :: Dec:2011	19336	</br>
+Month:Year :: Feb:1990	1	</br>
+Month:Year :: Feb:2001	148	</br>
+Month:Year :: Jun:2001	150	</br>
+Month:Year :: May:2014	35763	</br>
+Month:Year :: Apr:2013	34242	</br>
+Month:Year :: Dec:2012	29226	</br>
+Month:Year :: Feb:2002	453	</br>
+Month:Year :: Jun:2002	1471	</br>
+Month:Year :: May:2015	43430	</br>
+Month:Year :: Apr:2014	35414	</br>
+Month:Year :: Dec:2013	27970	</br>
+Month:Year :: Feb:1992	1	</br>
+Month:Year :: Feb:2003	563	</br>
+Month:Year :: Jun:2003	8221	</br>
+Month:Year :: May:2016	46496	</br>
+Month:Year :: Oct:2000	861	</br>
+Month:Year :: Apr:2015	43920	</br>
+Month:Year :: Dec:2014	33687	</br>
+Month:Year :: Feb:2004	788	</br>
+Month:Year :: Jun:2004	4993	</br>
+Month:Year :: May:2017	3023	</br>
+Month:Year :: Oct:2001	12894	</br>
+Month:Year :: Apr:2016	45394	</br>
+Month:Year :: Dec:2015	35103	</br>
+Month:Year :: Feb:2005	9312	</br>
+Month:Year :: Jun:2005	2739	</br>
+Month:Year :: Mar:2000	90	</br>
+Month:Year :: May:2018	1544	</br>
+Month:Year :: Oct:2002	682	</br>
+Month:Year :: Sep:2000	315	</br>
+Month:Year :: Apr:2017	4434	</br>
+Month:Year :: Dec:2016	3819	</br>
+Month:Year :: Feb:1995	1	</br>
+Month:Year :: Feb:2006	5852	</br>
+Month:Year :: Jun:2006	9653	</br>
+Month:Year :: Mar:2001	287	</br>
+Month:Year :: Oct:2003	3102	</br>
+Month:Year :: Sep:2001	233	</br>
+Month:Year :: Apr:2018	1364	</br>
+Month:Year :: Dec:2017	1403	</br>
+Month:Year :: Feb:2007	8326	</br>
+Month:Year :: Jun:1996	1	</br>
+Month:Year :: Jun:2007	9147	</br>
+Month:Year :: Mar:2002	366	</br>
+Month:Year :: Oct:1993	2	</br>
+Month:Year :: Oct:2004	1449	</br>
+Month:Year :: Sep:2002	955	</br>
+Month:Year :: Dec:2018	1168	</br>
+Month:Year :: Feb:1997	1	</br>
+Month:Year :: Feb:2008	6787	</br>
+Month:Year :: Jun:2008	9459	</br>
+Month:Year :: Mar:2003	728	</br>
+Month:Year :: Oct:2005	3127	</br>
+Month:Year :: Sep:2003	2172	</br>
+Month:Year :: Feb:1998	1	</br>
+Month:Year :: Feb:2009	10925	</br>
+Month:Year :: Jun:1998	1	</br>
+Month:Year :: Jun:2009	11744	</br>
+Month:Year :: Mar:2004	2619	</br>
+Month:Year :: Oct:2006	7833	</br>
+Month:Year :: Sep:2004	16944	</br>
+Year: 208	1	</br>
+Month:Year :: Feb:1999	2	</br>
+Month:Year :: Jul:1931	7	</br>
+Month:Year :: Jun:1999	86	</br>
+Month:Year :: Mar:1994	1	</br>
+Month:Year :: Mar:2005	3180	</br>
+Month:Year :: Oct:2007	45020	</br>
+Month:Year :: Sep:2005	2359	</br>
+Month:Year :: Jan:2010	11402	</br>
+Month:Year :: Mar:2006	2907	</br>
+Month:Year :: Oct:2008	11609	</br>
+Month:Year :: Sep:2006	7643	</br>
+Month:Year :: Jan:2011	18396	</br>
+Month:Year :: Jul:1977	2	</br>
+Month:Year :: Mar:2007	6745	</br>
+Month:Year :: Oct:1998	3	</br>
+Month:Year :: Oct:2009	9458	</br>
+Month:Year :: Sep:2007	14043	</br>
+Month:Year :: Jan:2012	25780	</br>
+Month:Year :: Mar:2008	8148	</br>
+Month:Year :: Nov:2010	18872	</br>
+Month:Year :: Oct:1999	54	</br>
+Month:Year :: Sep:2008	14169	</br>
+Month:Year :: Dec:1969	2	</br>
+Month:Year :: Jan:2013	35781	</br>
+Month:Year :: Mar:1998	1	</br>
+Month:Year :: Mar:2009	14222	</br>
+Month:Year :: Nov:2011	31371	</br>
+Month:Year :: Sep:1998	2	</br>
+Month:Year :: Sep:2009	7721	</br>
+Month:Year :: Jan:2014	34644	</br>
+Month:Year :: Nov:2012	29409	</br>
+Month:Year :: Sep:1999	3136	</br>
+Month:Year :: Jan:2015	40813	</br>
+Month:Year :: Nov:2013	38031	</br>
+Month:Year :: Jan:2016	38827	</br>
+Month:Year :: Nov:2014	40874	</br>
+Month:Year :: Jan:2017	3792	</br>
+Month:Year :: Nov:2015	41366	</br>
+Month:Year :: Jan:2018	1203	</br>
+Month:Year :: Nov:2016	7657	</br>
+Month:Year :: Jan:2019	780	</br>
+Month:Year :: Nov:2017	1445	</br>
+Month:Year :: Nov:2018	1322	</br>
+Year: 2000	4605	</br>
+Year: 1990	1	</br>
+Year: 2001	15491	</br>
+Year: 2002	7864	</br>
+Year: 1992	1	</br>
+Year: 2003	27894	</br>
+Year: 1993	3	</br>
+Year: 2004	78310	</br>
+Year: 1994	2	</br>
+Year: 2005	74634	</br>
+Year: 1995	17	</br>
+Year: 2006	84048	</br>
+Year: 1996	4	</br>
+Year: 2007	145983	</br>
+Year: 1997	1	</br>
+Year: 2008	117277	</br>
+Year: 1998	26	</br>
+Year: 2009	122318	</br>
+Month:Year :: Feb:2010	16010	</br>
+Month:Year :: Jun:2010	15229	</br>
+Year: 1955	7	</br>
+Year: 1999	4703	</br>
+Month:Year :: Feb:2011	12855	</br>
+Month:Year :: Jun:2011	23197	</br>
+Month:Year :: May:208	1	</br>
+Month:Year :: Feb:2012	26258	</br>
+Month:Year :: Jun:2012	16321	</br>
+Year: 1957	1	</br>
+Month:Year :: Feb:2013	30885	</br>
+Month:Year :: Jun:2013	34633	</br>
+Month:Year :: Oct:2010	19154	</br>
+Month:Year :: Feb:2014	34787	</br>
+Month:Year :: Jun:2014	40554	</br>
+Month:Year :: Oct:2011	22697	</br>
+Month:Year :: Feb:2015	34010	</br>
+Month:Year :: Jun:2015	42331	</br>
+Month:Year :: Mar:2010	16713	</br>
+Month:Year :: Oct:2012	24003	</br>
+Month:Year :: Sep:2010	13258	</br>
+Month:Year :: Dec:1212	1	</br>
+Month:Year :: Feb:2016	35199	</br>
+Month:Year :: Jun:2016	44933	</br>
+Month:Year :: Mar:2011	18718	</br>
+Month:Year :: Oct:2013	44908	</br>
+Month:Year :: Sep:2011	25243	</br>
+Month:Year :: Feb:2017	5143	</br>
+Month:Year :: Jun:2017	4735	</br>
+Month:Year :: Mar:2012	25495	</br>
+Month:Year :: Oct:2014	44151	</br>
+Month:Year :: Sep:2012	37686	</br>
+Month:Year :: Feb:2018	849	</br>
+Month:Year :: Jun:2018	1280	</br>
+Month:Year :: Mar:2013	33344	</br>
+Month:Year :: Oct:2015	46000	</br>
+Month:Year :: Sep:2013	36086	</br>
+Month:Year :: Mar:2014	38871	</br>
+Month:Year :: Oct:2016	12310	</br>
+Month:Year :: Sep:2014	40298	</br>
+Month:Year :: Mar:2015	40552	</br>
+Month:Year :: Oct:2017	3353	</br>
+Month:Year :: Sep:2015	39909	</br>
+Month:Year :: Mar:2016	49733	</br>
+Month:Year :: Oct:2018	1313	</br>
+Month:Year :: Sep:2016	9048	</br>
+Month:Year :: Mar:2017	8037	</br>
+Month:Year :: Sep:2017	2300	</br>
+Month:Year :: Jul:1988	1	</br>
+Month:Year :: Mar:2018	1072	</br>
+Month:Year :: Sep:2018	2092	</br>
+Month:Year :: Dec:1979	21	</br>
+Year: 2010	169745	</br>
+Year: 2011	261412	</br>
+Year: 2012	301420	</br>
+Year: 2013	421195	</br>
+Year: 2014	462888	</br>
+Year: 2015	495237	</br>
+Year: 2016	316576	</br>
+Year: 2017	43357	</br>
+Year: 2018	15755	</br>
+Year: 2019	780	</br>
+Bad-Values	11567875	</br>
+Month:Year :: Jul:2000	221	</br>
+Year: 1969	2	</br>
+Month:Year :: Jul:2001	240	</br>
+Month:Year :: Jun:1970	1	</br>
+Month:Year :: Jul:2002	367	</br>
+Month:Year :: Jul:2003	550	</br>
+Month:Year :: Jul:2004	24808	</br>
+Month:Year :: Jul:2005	5846	</br>
+Month:Year :: Dec:1941	1	</br>
+Month:Year :: Jul:2006	4991	</br>
+Month:Year :: Jul:1996	1	</br>
+Month:Year :: Jul:2007	9693	</br>
+Month:Year :: Jul:2008	9286	</br>
+Month:Year :: Jul:2009	8012	</br>
+Month:Year :: Sep:1973	2092	</br>
+Month:Year :: Jul:1999	6	</br>
+Month:Year :: Oct:1976	1	</br>
+Month:Year :: Jan:1980	5	</br>
+Month:Year :: Aug:2000	282	</br>
+Month:Year :: Jan:1982	1	</br>
+Month:Year :: Aug:2001	190	</br>
+Month:Year :: Jan:1983	1	</br>
+Month:Year :: Aug:2002	1537	</br>
+Month:Year :: Nov:1982	1	</br>
+
