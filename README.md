@@ -1,4 +1,8 @@
-Main Category	Price Bucket	Quantity	
+Q1:What is the distribution of prices for each product category ("main_cat")?  Produce 10 evenly split buckets for each category.
+
+Output of the following question:
+
+Main Category	Price Bucket	Quantity </br>	
 AMAZON FASHION	40.0 to 42.0	7801	</br>
 AMAZON FASHION	62.0 to 64.0	4011	</br>
 AMAZON FASHION	84.0 to 86.0	3345	</br>
