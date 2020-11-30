@@ -3,7 +3,7 @@ What is the distribution of prices for each product category ("main_cat")?  Prod
 Following is the output:
 
 Main Category	Price Bucket	Quantity
-AMAZON FASHION	40.0 to 42.0	7801
+AMAZON FASHION	40.0 to 42.0	7801</br>
 AMAZON FASHION	62.0 to 64.0	4011
 AMAZON FASHION	84.0 to 86.0	3345
 All Electronics	0.0 to 2.0	2243
