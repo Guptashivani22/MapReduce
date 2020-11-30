@@ -1,5 +1,7 @@
 Question1:What is the distribution of prices for each product category ("main_cat")?  Produce 10 evenly split buckets for each category.
+
 Code is in cat_product_price.java
+
 Question2:How do the products fall with regard to the "date" field?  Bucket by year and month.  Parsing of the date field required.  Note that this field is often bad (separate into a "bad" bucket). 
 Code is in cat_product_date.java
 
